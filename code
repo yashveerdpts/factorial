@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int n,product=1;
+	printf("enter");
+	scanf("%d", &n);
+	int i=1;
+	while(i<=n)
+	{
+		product= i*product;
+		printf("i: %d", product);
+		i++;
+	}
+	return 0;
+}
